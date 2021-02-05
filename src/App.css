@@ -1,10 +1,44 @@
 .App {
+  align-items: center;
+  background: white;
+  display: grid;
+  height: 100vh;
   text-align: center;
+  width: 100vw;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  text-transform: capitalize;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: blue;
+  color: white;
+}
+
+.purple {
+  background: purple;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
